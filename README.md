@@ -1,5 +1,6 @@
 # Supported tags and respective Dockerfile links
 
+- [`3.9.1`, `3.9`](https://github.com/ets-infra/docker-python-graphviz/blob/master/3.9/Dockerfile)
 - [`3.6.12`, `3.6`, `latest`](https://github.com/ets-infra/docker-python-graphviz/blob/master/3.6/Dockerfile)
 
 # Quick reference (cont.)
@@ -15,7 +16,7 @@ It allows a faster build when you rely on [python](https://hub.docker.com/_/pyth
 ## Create a Dockerfile in your Python app project
 
 ```dockerfile
-FROM docker-python-graphviz:3.6.12
+FROM docker-python-graphviz:3.9.1
 
 CMD [ "python", "./your-daemon-or-script.py" ]
 ```
